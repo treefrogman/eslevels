@@ -15,7 +15,7 @@ Mozilla Parser AST argument that can be obtained from such parsers as [esprima](
 ([acorn](https://github.com/marijnh/acorn) parser has different "range" format). The leavels method returns an array of tuples.
 Each tuple contains 3 numbers:
 
-*  nesting level number &mdash The Integer : -1 for implicit global variables, deeper scopes have higher numbers 0,1,2,...
+*  nesting level number — The Integer : -1 for implicit global variables, deeper scopes have higher numbers 0,1,2,...
 *  a level's starting position
 *  a level's end position
 
